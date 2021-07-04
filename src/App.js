@@ -12,7 +12,7 @@ function App() {
 
 	}
 	return (
-		<div>
+		<div style={{margin:"50px 100px"}}>
 			<InputForm onSubmit={addItemHandler}/>
 			<Users users={allUser}/>
 		

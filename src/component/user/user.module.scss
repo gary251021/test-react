@@ -1,0 +1,28 @@
+.box{
+  display: flex;
+  flex-direction: column;
+  //box-shadow: 0 0 10px gray;
+  margin: 10px 0;
+  width:max-content;
+  font-weight: 600;
+
+  .user-info{
+    z-index: -1;
+    padding:5px;
+    border: 4px purple solid;
+    border-radius: 0 5px 5px 5px;
+    box-shadow: 0 0 5px gray;
+    .user-name{
+      color: red;
+    }
+    
+    .user-age{
+      color:blue;
+    }
+  }
+  
+  
+
+}
+
+
